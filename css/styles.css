@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+:root{
+    --link-color: #212121;
+    --text-color: #757575;
+    --link-color_hover: #2196F3;
+
+}
+
+    .logo-link {
+        font-style: normal;
+        font-family: "Raleway";
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+        color: #000;
+        
+    }
+.navigator-links{
+list-style-type: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+}
+
+.navigator-link{
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.navigator-link:hover,
+.navigator-link:focus,
+.navigator-link:active{
+    color: var(--link-color_hover);
+}
+
+.navigator-link-current-link
+{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+
+color: #2196F3;
+}
+
+.contact-info-link-current-link{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #2196F3;
+
+}
+.contact-info-link{
+    text-decoration: none;
+    color: var(--link-color);
+    
+}
+.contact-info-link-current-link a{
+    list-style-type: none;
+}
+
+.contact-info-link:hover,
+.contact-info-link:focus,
+.contact-info-link:active{
+    color: var(--link-color_hover);
+}
+
+.hero{
+    background-color: #2f303a;}
+
+.hero-font{
+    font-family:"Roboto";
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 6%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.our-team ul{
+list-style-type: none;
+}
+    
+
+h1,h3{
+    font family:var(--link-color);
+}
+
+body{
+        font-family:"Roboto","sans-serif";
+        font-weight: 400;
+        font-style:normal;
+        font-size: 14px;
+        line-height: 1.2;
+        color: var(--text-color);
+}
+
+
+
+
+
+
+
