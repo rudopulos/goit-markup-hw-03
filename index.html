@@ -4,32 +4,45 @@
     <meta charset="UTF-8" />
     <title>Web Studio</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="modern-normalize.css">
    </head>
   <body>
-    <header class="header">
-      <nav class="list">
+    <header class="global-header">
+      <div class="container header-container">
+      <nav class="nav-container">
         
 
       <ul class="navigator-links">
         <a class="logo-link" href="./index.html"> <span style="color: #2196F3;">Web</span>Studio</a>
-        <li><a class="navigator-link-current-link" href="./index.html" >Studio</a></li>
-        <li><a class="navigator-link"href="./portofolio.html">Portofolio</a></li>
-        <li><a class="navigator-link"href="/contacts.html">Contacts</a></li>
-        <li><a class="contact-info-link-current-link" href = "info@devstudio.com">info@devstudio.com</a></li>
-    <li><a class="contact-info-link"href="tel :+12127724150">+1 212-772-4150</a></li>
-     
-    </ul>
+        <li class="navigator-link-item"><a class="navigator-link-current-link" href="./index.html" >Studio</a></li>
+        <li class="navigator-link-item"><a class="navigator-link"href="./portofolio.html">Portofolio</a></li>
+        <li class="navigator-link-item"><a class="navigator-link"href="/contacts.html">Contacts</a></li>
+      </ul>
       </nav>
+        <ul class="navigator-contacts">
+         <li class ="navigator-link-item"> <a class="contact-info-link-current-link" href = "info@devstudio.com">info@devstudio.com</a>
+        </li>
+        
+    <li class="navigator-link-item"><a class="contact-info-link"href="tel :+12127724150">+1 212-772-4150</a></li>
+  </ul>
+        </div>
+     
+   
+     
+   
     </header>
     <main>
     <!--Hero-->
     
     <section class="hero">
+      <div class ="container">
       <h1 class="hero-font">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
       <button type="button">Request our service</button>
+    </div>
     </section>
     
     <section>
+      <div class="container">
       <p>ATTENTION TO DETAILS</p>
       <ul>
         We go into all the details and processes of your business to develop a customized solution.
@@ -46,17 +59,21 @@
       <ul>
         We use innovative tools to solve assigned tasks. It's time to simplify work processes.
       </ul>
-      
+    </div>
     </section>
-    <section>
+    <!--what we do-->
+    <section class="section section-padding">
+      <div class="container flex-container">
       <h3>What we do</h3>
       <section>
       <img src="./images/tableta_tastatura.jpg", alt="Tableta + tastatura" width="370px" height="294px">
       <img src="./images/telefon_laptop.jpg", alt="telefon + laptop " width="370px" height="294px">
       <img src="./images/tableta_mouse.jpg", alt="telefon + mouse " width="370px" height="294px">
-  
+    </div>
   </section >
-    <section class="our-team">
+  <!--our team -->
+    <section class="section our-team-container">
+      <div class="container flex-container">
     <h3>Our team</h3>
     <ul>
       <li>
@@ -87,10 +104,11 @@
 
     </ul>
 
-    
+  </div>
     </section>
   </main>
   <footer>
+    <div class="container">
     <h4>WebStudio</h4>
     <ul>
      
@@ -100,6 +118,7 @@
         <a href="tel :+12127724150">+1 212-772-4150</a><br>
      
     </ul>
+  </div>
   </footer>
   </body>
 </html>
