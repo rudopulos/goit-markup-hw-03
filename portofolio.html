@@ -3,77 +3,149 @@
   <head>
     <title>Web Studio</title>
     <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="modern-normalize.css">
   </head>
   <body>
-    <header>
-      <nav>
-        
+    <header class="global-header">
+    <div class="container header-container">
+    <nav class="nav-container">
+      
 
-      <ul>
-        <h2>WebStudio</h2>
-        <li><a href="/studio.html">Studio</a></li>
-        <li><a href="/portofolio.html">Portofolio</a></li>
-        <li><a href="/contacts.html">Contacts</a></li>
-      </ul>
+    <ul class="navigator-links">
+      <a class="logo-link" href="./index.html"> <span style="color: #2196F3;">Web</span>Studio</a>
+      <li class="navigator-link-item"><a class="navigator-link-current-link" href="./index.html" >Studio</a></li>
+      <li class="navigator-link-item"><a class="navigator-link"href="./portofolio.html">Portofolio</a></li>
+      <li class="navigator-link-item"><a class="navigator-link"href="/contacts.html">Contacts</a></li>
+    </ul>
     </nav>
-    <a href = "info@devstudio.com">info@devstudio.com</a>
-    <a href="tel :+12127724150">+1 212-772-4150</a>
-    </header>
+      <ul class="navigator-contacts">
+       <li class ="navigator-link-item"> <a class="contact-info-link-current-link" href = "info@devstudio.com">info@devstudio.com</a>
+      </li>
+      
+  <li class="navigator-link-item"><a class="contact-info-link"href="tel :+12127724150">+1 212-772-4150</a></li>
+</ul>
+      </div>
+   
+ 
+   
+ 
+  </header>
+<main>
+  
 <!--Buttons-->
-    <section>
-        <button type="button">All</button>
-        <button type="button">Web-sites</button>
-        <button type="button">Apps</button>
-        <button type="button">Design</button>
-        <button type="button">Marketing</button>
+    <section class="section">
+      <div class="container">
+        <ul class="list filter">
+          <li class="filter-item">
+        <button type="button" class="filter-button current-filter">All</button>
+        </li>
+        <li class="filter-item">
+        <button type="button" class="filter-button">Web-sites</button>
+      </li>
+      <li class="filter-item">
+        <button type="button" class="filter-button">Apps</button>
+      </li>
+      <li class="filter-item">
+        <button type="button" class="filter-button">Design</button>
+      </li>
+      <li class="filter-item">
+        <button type="button" class="filter-button">Marketing</button>
+      </li>
+      </ul>
 
-    </section>
+   
 <!--Projects-->
-    <section>
-      <ul>
-        <li>
+    
+      <ul class="list projects">
+        <li class="project-item">
         <img src="./images/Technoduck.jpg" alt="Technoduck"  width = "370px" height="294px">
-        <br> Technoduck </br>
-       <br> <em>Web-site</em></br>
+        <div class="project-wrapper">
+        <h3 class="project-title"> Technoduck</h3>
+        <p class="project-description">Web-site</p>
+      </div>
+        </li>
+        <li class="project-item">
         <img src="./images/sports.jpg" alt ="sports" width = 370px height="294px">
-        <br>Poster New Orlean vs Golden Star</br>
-        <br><em>Design</em></br>
+        <div class="project-wrapper">
+        <h3 class="project-title">Poster New Orlean vs Golden Star</h3>
+        <p class="project-description">Design</p>
+      </div>
+        </li>
+        <li class="project-item">
         <img src="./images/seafood.jpg" alt = "seafood" width = 370px height="294px">
-        <br>Seafood Restaurant <br>
-        <br><em>Apps</em></br>
-        <img src="./images/headsets.jpg" alt ="headsets" width = 370px height="294px">
-        <br>Project Prime</br>
-        <br><em>Marketing</em><br>
+        <div class="project-wrapper">
+        <h3 class="project-title">Seafood Restaurant <h3>
+        <p class="project-description">Apps</p>
+      </div>
+      </li>
+      <li class="project-item">
+        <img src="./images/headsets.jpg" >
+        <div class="project-wrapper">
+        <h3 class="project-title">Project Prime</h3>
+        <p class="project-description">Marketing</p>
+      </div>
+      </li>
+      <li class="project-item">
         <img src ="./images/boxes.jpg"alt = "boxes" width = 370px height="294px">
-        <br>Project Boxes</br>
-        <br><em>Apps</em><br>
+        <div class="project-wrapper">
+        <h3 class="project-title">Project Boxes</h3>
+        <p class="project-description">Apps</p>
+      </div>
+      </li>
+      <li class="project-item">
         <img src ="./images/monitor.jpg" alt ="monitor" width = 370px height="294px">
-        <br>Inspiration has no Borders<br>
-        <br><em>Web-site</em></br>
+        <div class="project-wrapper">
+        <h3 class="project-title">Inspiration has no Borders</h3>
+        <p class="project-description">Web-site</p>
+      </div>
+      </li>
+      <li class="project-item">
         <img src = "images/book.jpg" alt ="book" width = 370px height="294px">
-        <br>Limited Edition</br>
-        <br><em>Design</em></br>
+        <div class="project-wrapper">
+        <h3 class="project-title">Limited Edition</h3>
+        <p class="project-description">Design</p>
+      </div>
+      </li>
+      <li class="project-item">
         <img src ="images/label.jpg"alt ="label" width = 370px height="294px">
-        <br>Project LAB</br>
-        <br><em>Marketing</em></br>
+        <div class="project-wrapper">
+        <h3 class="project-title">Project LAB</h3>
+        <p class="project-description">Marketing</p>
+      </div>
+      </li>
+      <li class="project-item">
         <img src="./images/laptop.jpg" alt ="laptop" width = 370px height="294px">
-        <br>Growing Business</br>
-        <br>Apps</br>
+        <div class="project-wrapper">
+        <h3 class="project-title">Growing Business</h3>
+        <p class="project-description">Apps</p>
         </li>
       </ul>
-
+    </div>
     </section>
+  </main>
 
     <!--footer-->
-    <footer>
-      <h4>WebStudio</h4>
-      <ul>
+    <footer class = "footer">
+      <div class="container container-footer">
+        <a class="logo-link" href="./index.html"> <span style="color: #2196F3;">Web</span><span style="color: #ffffff;">Studio</span></a>
        
-          <address>Park Ave, NY 10065, USA </address> 
-          <br><a href = "info@devstudio.com">info@devstudio.com</a><br>
+          <address>
   
-          <a href="tel :+12127724150">+1 212-772-4150</a><br>
-       
-      </ul>
+            <ul class="lsit">
+            <li>
+              <a href=""  class="link footer-contacts">695 Park Ave, New York, NY 10065,<br> United States</a>
+            </li>
+            <li>
+              <a href="mailto:info@example.com" class="link footer-contacts ">info@example.com</a>
+            </li>
+            <li>
+              <a href="tel:+1 212-772-4150" class="link footer-contacts"> +1 212-772-4150</a>
+            </li>
+            </ul>
+          </address> 
+    
+    </div>
     </footer>
     

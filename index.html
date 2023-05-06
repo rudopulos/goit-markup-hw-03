@@ -35,71 +35,95 @@
     <!--Hero-->
     
     <section class="hero">
-      <div class ="container">
-      <h1 class="hero-font">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-      <button type="button">Request our service</button>
+      <div class ="container hero-container">
+      <h1 class="hero-container-font">EFFECTIVE SOLUTIONS FOR <br/>YOUR BUSINESS</h1>
+      <button class = "hero-container-button"type="button">Request our service</button>
     </div>
     </section>
-    
-    <section>
-      <div class="container">
-      <p>ATTENTION TO DETAILS</p>
+    <!--work details-->
+    <section class = "work">
+      <div class="container work-container">
+        <ul class="list content-list">
+          <li class="text-content">
+      <h3 class="text-title">ATTENTION TO DETAILS</h3>
+      <p class ="text">
+      
+        We go into all the details and processes 
+        of your business to develop a customized solution.
+      </p>
+      </li>
+      <li class ="text-content">
+      <h3 class="text-title">PUNCTUALITY</h3>
+      <p class="text">
+        With us, you can feel safe and secure. 
+        An important principle of the company: 
+        respect your time and deadlines.
+      </p>
+      </li >
+      <li class ="text-content">
+      <h3 class ="text-title">PLANNING</h3>
+      <p class="text">
+        You will be able to observe and participate 
+        in every phase of solution development and 
+        implementation.
+      </p>
+      <li class ="text-content">
+      <h3 class="text-title">MODERN TECHNOLOGIES</h3>
+      <p class="text">
+        We use innovative tools to solve assigned tasks. 
+        It's time to simplify work processes.
+      </p>
+      </li>
       <ul>
-        We go into all the details and processes of your business to develop a customized solution.
-      </ul>
-      <p>PUNCTUALITY</p>
-      <ul>
-        With us, you can feel safe and secure. An important principle of the company: respect your time and deadlines.
-      </ul>
-      <p>PLANNING</p>
-      <ul>
-        You will be able to observe and participate in every phase of solution development and implementation.
-      </ul>
-      <p>MODERN TECHNOLOGIES</p>
-      <ul>
-        We use innovative tools to solve assigned tasks. It's time to simplify work processes.
-      </ul>
     </div>
     </section>
     <!--what we do-->
     <section class="section section-padding">
       <div class="container flex-container">
-      <h3>What we do</h3>
-      <section>
-      <img src="./images/tableta_tastatura.jpg", alt="Tableta + tastatura" width="370px" height="294px">
-      <img src="./images/telefon_laptop.jpg", alt="telefon + laptop " width="370px" height="294px">
-      <img src="./images/tableta_mouse.jpg", alt="telefon + mouse " width="370px" height="294px">
+      <h3 class ="title">What we do</h3>
+      <ul class ="list what-we-do-list">
+        <li class="what-we-do-item">
+      <img src="./images/tableta_tastatura.jpg", alt="Tableta + tastatura"
+       width="370px" height="294px" class="what-we-do-img"></li>
+       <li>
+      <img src="./images/telefon_laptop.jpg", alt="telefon + laptop " width="370px" height="294px" 
+      class="what-we-do-img"></li>
+      <li>
+      <img src="./images/tableta_mouse.jpg", alt="telefon + mouse " 
+      width="370px" height="294px" class="what-we-do-img">
+    </li>
+    </ul>
     </div>
   </section >
   <!--our team -->
     <section class="section our-team-container">
       <div class="container flex-container">
-    <h3>Our team</h3>
-    <ul>
-      <li>
-        <img src="./images/Christopher Walker Product Designer.jpg",
-         alt ="Product designer" width ="270px" height="260px">
-         <br/> Christopher Walker<br/>
-         <em>Product designer</em>
+    <h2 class="title">Our team</h2>
+    <ul class="list team-list">
+      <li class="team-item">
+        <img class ="team-img" src="./images/Christopher Walker Product Designer.jpg" alt= "Product designer"
+          width ="270px"/>
+         <h3 class="team-name"> Christopher Walker</h3>
+         <p class="team-title">Product designer</p>
 
       </li>
-      <li>
-        <img src="./images/Kylie Evans.jpg", 
-        alt="Frontend developer" width="270px" height="260px">
-        <br/>Kylie Evans<br/>
-        <em>Frontend Developer</em>
+      <li class="team-item">
+        <img class = "team-img" src="images/Kylie Evans.jpg" 
+        alt="Frontend developer" width="270px"/>
+        <h3 class="team-name">Kylie Evans</h3>
+        <p class="team-title">Frontend Developer</p>
       </li>
-      <li>
-        <img src="./images/Ryan Harris.jpg", 
-        alt="Frontend developer" width="270px" height="260px">
-        <br/>Ryan Harris<br/>
-        <em>Marketing</em>
+      <li class="team-item">
+        <img class="team-img" src="./images/Ryan Harris.jpg", 
+        alt="Frontend developer" width="270px"/>
+        <h3 class="team-name">Ryan Harris</h3>
+        <p class="team-title">Marketing</p>
       </li>
-      <li>
-        <img src="./images/Tyler Moore.jpg", 
-        alt="Frontend developer" width="270px" height="260px">
-        <br/>Tyler Moore<br/>
-        <em>UI Designer</em>
+      <li class="team-item">
+        <img class = "team-img" src="images/Tyler Moore2.jpg", 
+        alt="Frontend developer" width="270px" />
+        <h3 class="team-name">Tyler Moore</h3>
+        <p class="team-title">UI Designer</p>
       </li>
 
     </ul>
@@ -107,17 +131,25 @@
   </div>
     </section>
   </main>
-  <footer>
-    <div class="container">
-    <h4>WebStudio</h4>
-    <ul>
+  <footer class = "footer">
+    <div class="container container-footer">
+      <a class="logo-link" href="./index.html"> <span style="color: #2196F3;">Web</span><span style="color: #ffffff;">Studio</span></a>
      
-        <address>Park Ave, NY 10065, USA </address> 
-        <br><a href = "info@devstudio.com">info@devstudio.com</a><br>
+        <address>
 
-        <a href="tel :+12127724150">+1 212-772-4150</a><br>
-     
-    </ul>
+          <ul class="lsit">
+          <li>
+            <a href=""  class="link footer-contacts">695 Park Ave, New York, NY 10065,<br> United States</a>
+          </li>
+          <li>
+            <a href="mailto:info@example.com" class="link footer-contacts ">info@example.com</a>
+          </li>
+          <li>
+            <a href="tel:+1 212-772-4150" class="link footer-contacts"> +1 212-772-4150</a>
+          </li>
+          </ul>
+        </address> 
+  
   </div>
   </footer>
   </body>
